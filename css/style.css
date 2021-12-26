@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap");
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/*Header*/
+#logo {
+    font-weight: 500;
+}
+
+#logo, #home, #contact, #service {
+    transition: all 0.1s ease-in-out;
+}
+
+#logo:hover, #home:hover, #contact:hover, #service:hover {
+    color: rgb(136, 136, 136);
+}
+
+/*Main*/
+/*Scroll Bar*/
+/* width */
+::-webkit-scrollbar {
+    width: 7px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #444444; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(46, 46, 46); 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(31, 31, 31); 
+  }
+
+
+
+
+
